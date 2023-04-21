@@ -7,7 +7,7 @@ assignees: hnvultimate123
 
 ---
 
-**Describe the CSS feature to be include**
+**Describe the CSS Feature to be Include**
 A clear description of what feature is being included and what functionality it will offer.
 
 **Reason for Inclusion**
