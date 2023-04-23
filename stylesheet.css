@@ -14,7 +14,7 @@ h1 {
     padding: 0.5em;
     border: 10px;
     border-style: groove;
-    border-color: crimson;
+    border-color: #DC143C;
 }
 
 h2 {
@@ -37,7 +37,7 @@ p {
 section {
     border: 10px;
     border-style: groove;
-    border-color: darkcyan;
+    border-color: hsl(180, 100%, 27%);
     border-width: 1.2ch;
 }
 
