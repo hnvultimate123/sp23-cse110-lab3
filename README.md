@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-Link to Website: https://hnvultimate123.github.io/Lab2_Starter/
+# Lab 3
+Link to Website: https://hnvultimate123.github.io/sp23-cse110-lab3/
