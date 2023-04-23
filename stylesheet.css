@@ -9,6 +9,8 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
     font-family: "Montserrat", sans-serif;
+    height: auto;
+    width: auto;
 }
 
 h1 {
@@ -16,8 +18,24 @@ h1 {
     border: 10px;
     border-style: groove;
     border-color: #DC143C;
+    border-radius: 1ch;
     position: static;
     text-align: center;
+}
+
+#brainstormSection {
+    display: flex;
+}
+
+#caption {
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
 }
 
 h2 {
@@ -43,6 +61,8 @@ section {
     border-style: double;
     border-color: hsl(180, 100%, 27%);
     border-width: 1.2ch;
+    max-height: fit-content;
+    min-height: fit-content;
 }
 
 li {
@@ -55,4 +75,12 @@ footer {
     position: sticky;
     bottom: 0px;
     background-color: aliceblue;
+}
+
+summary:hover {
+    background-color: greenyellow;
+}
+
+button:active {
+    background-color: red;
 }
