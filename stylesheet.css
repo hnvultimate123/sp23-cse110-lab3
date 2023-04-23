@@ -8,6 +8,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
 h2 {
     font-size: 22px;
     margin: 10px;
+    text-decoration: underline;
 }
 
 h3 {
