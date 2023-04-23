@@ -1,3 +1,4 @@
+/* Body text modifications for padding */
 body {
     background-color: aliceblue;
     padding-top: 10px;
@@ -12,6 +13,8 @@ body {
     width: auto;
 }
 
+/* Consistency with headers with these modifications */
+
 h1 {
     padding: 0.5em;
     border: 10px;
@@ -22,6 +25,8 @@ h1 {
     text-align: center;
 }
 
+/* Modifying task section for ease of viewing */
+
 #taskStuff {
     display: grid;
     align-self: start;
@@ -30,6 +35,8 @@ h1 {
     row-gap: 5px;
 }
 
+/* Ensuring brainstorming section appears in a cleanly divided way for users*/
+
 #brainstormSection {
     display: flex;
     flex: content;
@@ -37,6 +44,8 @@ h1 {
     flex-wrap: nowrap;
     flex-basis: 0ch;
 }
+
+/* All captions and second headers centered */
 
 #caption, h2 {
     text-align: center;
@@ -70,6 +79,8 @@ p {
 div > p[id] {
     color: blueviolet;
 }
+
+/* Ensure each section is clearly defined */
 
 section {
     border: 10px;
