@@ -68,6 +68,7 @@ h3 {
     margin: auto;
 }
 
+/* Makes strong text more visible on the page */
 strong {
     font-size: 2.05ch;
 }
@@ -91,6 +92,7 @@ section {
     min-height: fit-content;
 }
 
+/* Ensures list formatting appears correctly with the specified margins */
 ul li, ol li {
     margin: 10px 10px 10px 10px;
 }
@@ -111,12 +113,14 @@ button:active {
     background-color: red;
 }
 
+/* On larger screens, when a user hovers over the button, color it green */
 @media (min-width: 1000px) {
     button:hover{
         color: green;
     }
 }
 
+/* Target the attendeesHeader class and ensure that the text is underlined */
 .attendeesHeader {
     text-decoration: underline;
 }
@@ -125,6 +129,7 @@ button:active {
     font-family: "Montserrat", sans-serif;
 }
 
+/* ol and p children of dividers after second headings should be colored purple (works for the brainstorming section) */
 h2 ~ div > ol, p {
     color: purple;
 }
