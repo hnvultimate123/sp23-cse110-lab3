@@ -23,6 +23,7 @@ h1 {
     border-radius: 1ch;
     position: static;
     text-align: center;
+    display: inline;
 }
 
 /* Modifying task section for ease of viewing */
