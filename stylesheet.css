@@ -15,6 +15,8 @@ h1 {
     border: 10px;
     border-style: groove;
     border-color: #DC143C;
+    position: static;
+    text-align: center;
 }
 
 h2 {
@@ -36,7 +38,7 @@ p {
 
 section {
     border: 10px;
-    border-style: groove;
+    border-style: double;
     border-color: hsl(180, 100%, 27%);
     border-width: 1.2ch;
 }
@@ -48,4 +50,7 @@ li {
 footer {
     text-decoration: overline;
     text-align: center;
+    position: sticky;
+    bottom: 0px;
+    background-color: aliceblue;
 }
