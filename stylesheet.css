@@ -97,7 +97,7 @@ button:active {
     background-color: red;
 }
 
-@media (hover:hover) {
+@media (min-width: 1000px) {
     button:hover{
         color: green;
     }
